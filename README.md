@@ -6,6 +6,8 @@
 This code is modified from [TUTDF](https://github.com/lizheyong/TUTDF). I have adjusted and modified the code to make it runnable with a single command.
 > *Reference:Li, Zheyong, et al. "A transfer-based framework for underwater target detection from hyperspectral imagery." Remote Sensing. 2023.*
 
+### Introduction
+
 Hyperspectral underwater target detection is a promising and challenging task in remote sensing image processing. The main difference between hyperspectral underwater target detection and hyperspectral land-based target detection is the spectral distortion caused by the underwater environment. Addressing this distortion is the primary challenge in hyperspectral underwater target detection.
 
 
