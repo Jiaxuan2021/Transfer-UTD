@@ -31,7 +31,7 @@ $$
 
 The detection algorithm framework is shown in the figure below.
 <p align="center">
-  <img src="/pics/framework.png" alt="Framework" title="NUN-UTD" width="900px">
+  <img src="/pics/framework.png" alt="Framework" title="Transfer-UTD" width="900px">
 </p>
 
 To solve the above bathymetric model, we need to estimate the inherent optical properties (IOPs) of the water. Here, we use IOPE-Net for this purpose. Which is implemented by [lizheyong](https://github.com/lizheyong/IOPE-Net). 
@@ -44,7 +44,7 @@ Then, use the bathymetric model to synthesize underwater target spectra as posit
 Due to the difficulty of deploying underwater targets and the high cost of data collection, research in this area has predominantly relied on simulated data. To advance the study of underwater target detection in real-world scenarios, we collected a dataset of real underwater scenes and conducted experiments on this data. The deployed underwater target is an iron plate, and the target's prior spectral data were collected onshore.
 
 <p align="center">
-  <img src="/pics/ref.png" alt="Framework" title="NUN-UTD" width="400px">
+  <img src="/pics/ref.png" alt="Framework" title="Transfer-UTD" width="400px">
 </p>
 
 > The River Scene data sets was captured by Headwall Nano-Hyperspec imaging sensor equipped on DJI Matrice 300 RTK unmanned aerial vehicle, and it was collected at the Qianlu Lake Reservoir in Liuyang (28◦18′40.29′′ N, 113◦21′16.23′′ E), Hunan Province, China on July 31, 2021.
@@ -55,7 +55,7 @@ Due to the difficulty of deploying underwater targets and the high cost of data 
 - Dataset format: mat
 
 <p align="center">
-  <img src="/pics/datasets.png" alt="Framework" title="NUN-UTD" width="800px">
+  <img src="/pics/datasets.png" alt="Framework" title="Transfer-UTD" width="800px">
 </p>
 
 - River Scene1:
