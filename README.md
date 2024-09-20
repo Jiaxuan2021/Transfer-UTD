@@ -18,7 +18,6 @@ Hyperspectral underwater target detection is a promising and challenging task in
 </head>
 <body>
 
-<!-- 在此处插入你的Markdown内容 -->
 <p>We utilize the following bathymetric model to synthetic underwater target spectra using for training.</p>
 
 $$
