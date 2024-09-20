@@ -58,19 +58,19 @@ Due to the difficulty of deploying underwater targets and the high cost of data 
   <img src="/pics/datasets.png" alt="Framework" title="NUN-UTD" width="800px">
 </p>
 
-- River Scene1
+- River Scene1:
 242×341 pixels with 270 spectral bands
 
-- River Scene2
+- River Scene2:
 255 × 261 pixels with 270 spectral bands
 
-- River Scene3
+- River Scene3:
 137 × 178 pixels with 270 spectral bands
 
-- Simulated Data
+- Simulated Data:
 The data set has a spatial resolution of 200 × 200 pixels, with wavelength coverage from 400 to 700 nm at 150 spectral bands.
 
-- Ningxiang & Ningxiang2
+- Ningxiang & Ningxiang2:
 The Ningxiang dataset was collected in a reservoir with high mineral content and significant sediment, which may make detection challenging.
 
 Keys: 
