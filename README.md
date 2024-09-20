@@ -1,7 +1,3 @@
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
 # A Hyperspectral Underwater Target Detection Method Using Bathymetric Model
 -----------
 
@@ -12,10 +8,26 @@ This code is modified from [TUTDF](https://github.com/lizheyong/TUTDF). I have a
 
 Hyperspectral underwater target detection is a promising and challenging task in remote sensing image processing. The main difference between hyperspectral underwater target detection and hyperspectral land-based target detection is the spectral distortion caused by the underwater environment. Addressing this distortion is the primary challenge in hyperspectral underwater target detection.
 
-We utilize the following bathymetric model to synthetic underwater target spectra using for training .
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<body>
+
+<!-- 在此处插入你的Markdown内容 -->
+<p>We utilize the following bathymetric model to synthetic underwater target spectra using for training.</p>
+
 $$
 r(\lambda) = r_{\infty}(\lambda) \left( 1 - e^{-(k_d(\lambda) + k^c_u(\lambda))H} \right) + \frac{r_B(\lambda)}{\pi} e^{-(k_d(\lambda) + k^b_u(\lambda))H}
 $$
+
+</body>
+</html>
+
 > *Reference:Lee, Zhongping, et al. "Hyperspectral remote sensing for shallow waters. I. A semianalytical model." Applied optics. 1998.*
 
 The detection algorithm framework is shown in the figure below.
