@@ -87,7 +87,7 @@ Keys:
 
 Training for new dataset need to generate NDWI mask (If land areas are included). 
 > NDWI Water Mask (require gdal):
-> `water_mask\NDWI.py`
+> You can check out the `water_mask\NDWI.py` file in another project [NUN-UTD](https://github.com/Jiaxuan2021/NUN-UTD)
 > - water -- 0
 > - land -- 255
 > - selected bands get from envi
