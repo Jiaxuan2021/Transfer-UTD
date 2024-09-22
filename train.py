@@ -70,8 +70,7 @@ def train_net(net, train_dataset, val_dataset, device, batch_size, lr, epochs, f
             if auc > best_epoch_auc and epoch > 2:
                 best_epoch_auc = auc
                 torch.save(net.state_dict(), fr"./data_temp/{file_name}/best_model_{file_name}.pth")
-                # np.save(fr"./data_temp/{file_name}/TransferUTD_{file_name}_{auc}.npy", class_map)
-        print(f'epoch:{epoch}/{epochs}, loss:{loss.item()}, auc:{auc:.4f} ,Best auc:{best_epoch_auc:.4f}')
+        print(f'epoch:{epoch}/{epochs}, loss:{loss.item()}, Best auc:{best_epoch_auc:.4f}')
 
 if __name__ == '__main__':
 
